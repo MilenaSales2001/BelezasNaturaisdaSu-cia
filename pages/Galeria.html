@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Belezas Naturais da Suécia</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html"class="nav-button">Início</a></li>
+                <li><a href="/pages/belezas.html"class="nav-button">Belezas Naturais</a></li>
+                <li><a href="/pages/Galeria.html"class="nav-button">Galeria</a></li>
+                <li><a href="/pages/informacoes.html"class="nav-button">Informações Adicionais</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <div class="galeria">
+        <div class="imagens">
+            <img src="/assets/imagens/suecia.jpg" alt="Imagem 1">
+            <img src="/assets/imagens/Suecia  castelo.png" alt="Imagem 2">
+            <img src="/assets/imagens/Abiskojakka-vattenkraftverk-2.jpg" alt="Imagem 3">
+            <img src="/assets/imagens/2ab6cce3f6855f06cd2558cceaf607f0.jpeg" alt="Imagem 4">
+            <img src="/assets/imagens/327f13b6bd0ac4ad90e69067e8b2fd27.jpg" alt="Imagem 5">
+            <img src="/assets/imagens/Sweden_Mountains_Roads_Forests_527299_2560x1440.jpg" alt="Imagem 6">
+            <img src="/assets/imagens/Suécia-aurora-boreal.jpg" alt="Imagem 7">
+            <img src="/assets/imagens/photo-1459236914855-982c6a11b8ee.jfif" alt="Imagem 8">
+            <img src="/assets/imagens/kungsleden_42.jpg" alt="Imagem 9">
+        </div>
+        <div class="visor" id="visor">
+            <div class="fechar" id="fechar">&times;</div>
+            <div class="imagem-grande" id="imagem-grande"></div>
+            <div class="controles">
+                <button class="anterior" id="anterior">&lt;</button>
+                <button class="proximo" id="proximo">&gt;</button>
+            </div>
+            <div class="lista-imagens" id="lista-imagens"></div>
+        </div>
+    </div>
+
+    <script src="/assets/js/Galeria.js"></script>
+</body>
+</html>
